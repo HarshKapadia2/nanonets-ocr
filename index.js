@@ -1,3 +1,4 @@
+const Buffer = require("buffer/").Buffer;
 const axios = require("axios").default;
 
 async function getModelDetails(apiKey, modelId) {
