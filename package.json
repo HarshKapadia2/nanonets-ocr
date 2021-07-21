@@ -1,0 +1,22 @@
+{
+	"name": "nanonets-ocr",
+	"version": "1.0.0",
+	"description": "A test package for nanonets.com OCR APIs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HarshKapadia2/nanonets-ocr.git"
+	},
+	"keywords": [
+		"ocr",
+		"nanonets"
+	],
+	"author": "Harsh Kapadia",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.21.1"
+	}
+}
