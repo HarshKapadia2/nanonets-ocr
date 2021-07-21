@@ -1,5 +1,6 @@
-const Buffer = require("buffer/").Buffer;
 const axios = require("axios").default;
+
+if (typeof Buffer === "undefined") global.Buffer = require("buffer").Buffer;
 
 async function getModelDetails(apiKey, modelId) {
 	const authHeaderVal =
